@@ -1,0 +1,18 @@
+﻿<Application x:Class="DGP.DecompilerMC.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="http://schemas.modernwpf.com/2019"
+             xmlns:local="clr-namespace:DGP.DecompilerMC"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+                <ui:ThemeResources x:Name="AppTheme" CanBeAccessedAcrossThreads="True"/>
+                <ui:XamlControlsResources />
+                
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

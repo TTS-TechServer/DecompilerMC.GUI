@@ -1,0 +1,12 @@
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\DGP.DecompilerMC.Test.exe.config
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\DGP.DecompilerMC.Test.exe
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\DGP.DecompilerMC.Test.pdb
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\DGP.DecompilerMC.exe
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\Newtonsoft.Json.dll
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\DGP.DecompilerMC.exe.config
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\bin\Release\Newtonsoft.Json.xml
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\obj\Release\DGP.DecompilerMC.Test.csprojAssemblyReference.cache
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\obj\Release\DGP.DecompilerMC.Test.csproj.CoreCompileInputs.cache
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\obj\Release\DGP.DecompilerMC.Test.csproj.CopyComplete
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\obj\Release\DGP.DecompilerMC.Test.exe
+C:\Users\16861\source\repos\DGP.DecompilerMC\DGP.DecompilerMC.Test\obj\Release\DGP.DecompilerMC.Test.pdb

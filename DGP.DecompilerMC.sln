@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGP.DecompilerMC", "DGP.DecompilerMC\DGP.DecompilerMC.csproj", "{B43DB46D-1DB6-4159-B17E-C6FC7BECF746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGP.DecompilerMC.Test", "DGP.DecompilerMC.Test\DGP.DecompilerMC.Test.csproj", "{981D3C62-AEFD-4D85-A5B0-29A4531E4EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B43DB46D-1DB6-4159-B17E-C6FC7BECF746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43DB46D-1DB6-4159-B17E-C6FC7BECF746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43DB46D-1DB6-4159-B17E-C6FC7BECF746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43DB46D-1DB6-4159-B17E-C6FC7BECF746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981D3C62-AEFD-4D85-A5B0-29A4531E4EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981D3C62-AEFD-4D85-A5B0-29A4531E4EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981D3C62-AEFD-4D85-A5B0-29A4531E4EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981D3C62-AEFD-4D85-A5B0-29A4531E4EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B61CD24-7C95-49A0-AC2E-C41F9D886C41}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,86 @@
+﻿<fluentwpf:AcrylicWindow  
+    xmlns:fluentwpf="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF" 
+    x:Class="DGP.DecompilerMC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DGP.DecompilerMC"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ExtendViewIntoTitleBar="True"
+        mc:Ignorable="d"
+        Title="DecompilerMC GUI" 
+        Height="392"
+        ResizeMode="NoResize"
+        Width="600"
+        Loaded="Window_Loaded"
+        Background="Transparent">
+    <Grid Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0" Grid.RowSpan="2" Background="{DynamicResource SystemControlBackgroundListMediumBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Style="{StaticResource CaptionTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center">仅支持19w36a后的版本</TextBlock>
+            <ui:ListView x:Name="VersionList"  ItemsSource="{Binding Versions,Mode=OneWay}" SelectedIndex="0" SelectedItem="{Binding Selected,Mode=TwoWay}" ui:ScrollViewerHelper.AutoHideScrollBars="True" Grid.Row="1">
+                <ui:ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="336" Height="32" HorizontalAlignment="Stretch">
+                            <TextBlock FontSize="18" Foreground="{Binding Brush}" VerticalAlignment="Center" Text="{Binding Path=Id}"/>
+                            <StackPanel HorizontalAlignment="Right">
+                                <Border Width="60" BorderThickness="1" BorderBrush="{Binding Brush}" CornerRadius="7.5" HorizontalAlignment="Right">
+                                    <TextBlock FontSize="10" Foreground="{Binding Brush}" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Path=ReleaseType}"/>
+                                </Border>
+                                <TextBlock Margin="0,4,0,0" FontSize="10" HorizontalAlignment="Center" Opacity="0.6" Text="{Binding ReleaseTime}"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ui:ListView.ItemTemplate>
+            </ui:ListView>
+        </Grid>
+        
+        <Grid Background="{DynamicResource SystemControlBackgroundAltHighBrush}" Grid.Column="1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="12,0,0,0" Style="{StaticResource CaptionTextBlockStyle}" Text="DecompilerMC GUI"/>
+            <StackPanel Grid.Row="1" VerticalAlignment="Top">
+                <ComboBox ui:ControlHelper.Header="反编译器" Margin="12,6" SelectedIndex="0" HorizontalAlignment="Stretch">
+                    <ComboBoxItem>CFR</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="False">*FernFlower*</ComboBoxItem>
+                </ComboBox>
+
+                <ComboBox ui:ControlHelper.Header="端源类型" Margin="12,6" SelectedIndex="0" HorizontalAlignment="Stretch">
+                    <ComboBoxItem>客户端</ComboBoxItem>
+                    <ComboBoxItem>服务端</ComboBoxItem>
+                </ComboBox>
+                <Button HorizontalAlignment="Stretch" Click="ClearButton_Click" Margin="12,6" Content="清理缓存与输出文件夹"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" VerticalAlignment="Bottom">
+                <Grid Margin="12,6,12,12">
+                    <Button HorizontalAlignment="Stretch" Content="反编译" Click="DecompileButton_Click"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        
+        <ui:ContentDialog Visibility="Hidden" x:Name="InfoDialog" Grid.RowSpan="2" Grid.ColumnSpan="2" Title="反编译已完成！" Content="已为您打开输出文件夹" DefaultButton="Primary" PrimaryButtonText="确认"/>
+        <Grid Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#AA000000" x:Name="ProcessDialog" Visibility="Hidden">
+            <Border SnapsToDevicePixels="True" Background="White" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="Gray" BorderThickness="1" CornerRadius="2">
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="360" Height="120">
+                    <TextBlock x:Name="DialogTitle" Text="正在下载映射文件" FontSize="20" Margin="12"/>
+                    <ProgressBar x:Name="Progress" Minimum="0" Maximum="100" Value="0" IsIndeterminate="False" Margin="12"/>
+                    <TextBlock x:Name="DialogInfoText" Text="这可能需要一段时间。" Margin="0,0,0,12" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</fluentwpf:AcrylicWindow>

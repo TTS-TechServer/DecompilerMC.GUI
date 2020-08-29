@@ -1,0 +1,871 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "FluentWPF/0.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FluentWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FluentWPF.dll": {}
+        }
+      },
+      "LibZ.Tool/1.2.0": {
+        "type": "package"
+      },
+      "ModernWpfUI/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "resource": {
+          "lib/net462/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net462/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "FluentWPF/0.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FluentWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FluentWPF.dll": {}
+        }
+      },
+      "LibZ.Tool/1.2.0": {
+        "type": "package"
+      },
+      "ModernWpfUI/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "resource": {
+          "lib/net462/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net462/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "FluentWPF/0.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FluentWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FluentWPF.dll": {}
+        }
+      },
+      "LibZ.Tool/1.2.0": {
+        "type": "package"
+      },
+      "ModernWpfUI/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "resource": {
+          "lib/net462/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net462/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "FluentWPF/0.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FluentWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FluentWPF.dll": {}
+        }
+      },
+      "LibZ.Tool/1.2.0": {
+        "type": "package"
+      },
+      "ModernWpfUI/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ModernWpf.Controls.dll": {},
+          "lib/net462/ModernWpf.dll": {}
+        },
+        "resource": {
+          "lib/net462/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net462/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentWPF/0.8.0": {
+      "sha512": "Yq/GjRtlNRjE5lLf99NWqJ+9kSeuhSrt55/Is1wgZwSL6s2oZWxfT1C6bnz7O+kzb/aAWEZD94X0MP5mW4H+qQ==",
+      "type": "package",
+      "path": "fluentwpf/0.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "fluentwpf.0.8.0.nupkg.sha512",
+        "fluentwpf.nuspec",
+        "lib/net45/FluentWPF.dll",
+        "lib/netcoreapp3.0/FluentWPF.dll"
+      ]
+    },
+    "LibZ.Tool/1.2.0": {
+      "sha512": "jcZROJ28bmrZx/RaFHcTlSy3x4SmSsMolJiKoluFFrE7oMiXUnYx1K+SJeHJhow05W0Rg9oi9HEyZWwdYSV3cw==",
+      "type": "package",
+      "path": "libz.tool/1.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "libz.tool.1.2.0.nupkg.sha512",
+        "libz.tool.nuspec",
+        "tools/libz.exe"
+      ]
+    },
+    "ModernWpfUI/0.9.1": {
+      "sha512": "VufBExyVgLaErsMslPVLtDmyAOlE4j4kGXbT9m4bKwM6JW8Rjld+rlQDLunZlgNs2N/YsTzybWgl0pm8hytNXQ==",
+      "type": "package",
+      "path": "modernwpfui/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ModernWpf.Controls.dll",
+        "lib/net45/ModernWpf.Controls.xml",
+        "lib/net45/ModernWpf.dll",
+        "lib/net45/ModernWpf.xml",
+        "lib/net45/cs/ModernWpf.resources.dll",
+        "lib/net45/de/ModernWpf.resources.dll",
+        "lib/net45/es/ModernWpf.resources.dll",
+        "lib/net45/fr/ModernWpf.resources.dll",
+        "lib/net45/it/ModernWpf.resources.dll",
+        "lib/net45/ja/ModernWpf.resources.dll",
+        "lib/net45/ko/ModernWpf.resources.dll",
+        "lib/net45/pl/ModernWpf.resources.dll",
+        "lib/net45/pt-BR/ModernWpf.resources.dll",
+        "lib/net45/ru/ModernWpf.resources.dll",
+        "lib/net45/tr/ModernWpf.resources.dll",
+        "lib/net45/zh-Hans/ModernWpf.resources.dll",
+        "lib/net45/zh-Hant/ModernWpf.resources.dll",
+        "lib/net462/ModernWpf.Controls.dll",
+        "lib/net462/ModernWpf.Controls.xml",
+        "lib/net462/ModernWpf.dll",
+        "lib/net462/ModernWpf.xml",
+        "lib/net462/cs/ModernWpf.resources.dll",
+        "lib/net462/de/ModernWpf.resources.dll",
+        "lib/net462/es/ModernWpf.resources.dll",
+        "lib/net462/fr/ModernWpf.resources.dll",
+        "lib/net462/it/ModernWpf.resources.dll",
+        "lib/net462/ja/ModernWpf.resources.dll",
+        "lib/net462/ko/ModernWpf.resources.dll",
+        "lib/net462/pl/ModernWpf.resources.dll",
+        "lib/net462/pt-BR/ModernWpf.resources.dll",
+        "lib/net462/ru/ModernWpf.resources.dll",
+        "lib/net462/tr/ModernWpf.resources.dll",
+        "lib/net462/zh-Hans/ModernWpf.resources.dll",
+        "lib/net462/zh-Hant/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ModernWpf.Controls.dll",
+        "lib/netcoreapp3.0/ModernWpf.Controls.xml",
+        "lib/netcoreapp3.0/ModernWpf.dll",
+        "lib/netcoreapp3.0/ModernWpf.xml",
+        "lib/netcoreapp3.0/cs/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/de/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/es/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/fr/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/it/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ja/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ko/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/pl/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/pt-BR/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ru/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/tr/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/zh-Hans/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/zh-Hant/ModernWpf.resources.dll",
+        "modernwpfui.0.9.1.nupkg.sha512",
+        "modernwpfui.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Collections/4.3.0": {
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "type": "package",
+      "path": "system.collections/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Collections.dll",
+        "ref/netcore50/System.Collections.xml",
+        "ref/netcore50/de/System.Collections.xml",
+        "ref/netcore50/es/System.Collections.xml",
+        "ref/netcore50/fr/System.Collections.xml",
+        "ref/netcore50/it/System.Collections.xml",
+        "ref/netcore50/ja/System.Collections.xml",
+        "ref/netcore50/ko/System.Collections.xml",
+        "ref/netcore50/ru/System.Collections.xml",
+        "ref/netcore50/zh-hans/System.Collections.xml",
+        "ref/netcore50/zh-hant/System.Collections.xml",
+        "ref/netstandard1.0/System.Collections.dll",
+        "ref/netstandard1.0/System.Collections.xml",
+        "ref/netstandard1.0/de/System.Collections.xml",
+        "ref/netstandard1.0/es/System.Collections.xml",
+        "ref/netstandard1.0/fr/System.Collections.xml",
+        "ref/netstandard1.0/it/System.Collections.xml",
+        "ref/netstandard1.0/ja/System.Collections.xml",
+        "ref/netstandard1.0/ko/System.Collections.xml",
+        "ref/netstandard1.0/ru/System.Collections.xml",
+        "ref/netstandard1.0/zh-hans/System.Collections.xml",
+        "ref/netstandard1.0/zh-hant/System.Collections.xml",
+        "ref/netstandard1.3/System.Collections.dll",
+        "ref/netstandard1.3/System.Collections.xml",
+        "ref/netstandard1.3/de/System.Collections.xml",
+        "ref/netstandard1.3/es/System.Collections.xml",
+        "ref/netstandard1.3/fr/System.Collections.xml",
+        "ref/netstandard1.3/it/System.Collections.xml",
+        "ref/netstandard1.3/ja/System.Collections.xml",
+        "ref/netstandard1.3/ko/System.Collections.xml",
+        "ref/netstandard1.3/ru/System.Collections.xml",
+        "ref/netstandard1.3/zh-hans/System.Collections.xml",
+        "ref/netstandard1.3/zh-hant/System.Collections.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.collections.4.3.0.nupkg.sha512",
+        "system.collections.nuspec"
+      ]
+    },
+    "System.Runtime.WindowsRuntime/4.7.0": {
+      "sha512": "RQxUkf37fp7MSWbOfKRjUjyudyfZb2u79YY5i1s+d7vuD80A7kmr2YfefO0JprQUhanxSm8bhXigCVfX2kEh+w==",
+      "type": "package",
+      "path": "system.runtime.windowsruntime/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/net45/System.Runtime.WindowsRuntime.targets",
+        "build/net451/System.Runtime.WindowsRuntime.targets",
+        "build/net461/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net45/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net451/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net461/System.Runtime.WindowsRuntime.targets",
+        "lib/net45/_._",
+        "lib/netstandard1.0/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard1.0/System.Runtime.WindowsRuntime.xml",
+        "lib/netstandard1.2/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard1.2/System.Runtime.WindowsRuntime.xml",
+        "lib/netstandard2.0/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard2.0/System.Runtime.WindowsRuntime.xml",
+        "lib/portable-win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.WindowsRuntime.dll",
+        "ref/netcore50/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard1.0/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard1.2/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard2.0/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard2.0/System.Runtime.WindowsRuntime.xml",
+        "ref/portable-win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "runtimes/win-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win-aot/lib/uap10.0.16299/_._",
+        "runtimes/win/lib/netcore50/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.xml",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+        "system.runtime.windowsruntime.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "FluentWPF >= 0.8.0",
+      "LibZ.Tool >= 1.2.0",
+      "ModernWpfUI >= 0.9.1",
+      "Newtonsoft.Json >= 12.0.3",
+      "System.Collections >= 4.3.0",
+      "System.Runtime.WindowsRuntime >= 4.7.0",
+      "System.ValueTuple >= 4.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\16861\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\16861\\source\\repos\\DGP.DecompilerMC\\DGP.DecompilerMC\\DGP.DecompilerMC.csproj",
+      "projectName": "DGP.DecompilerMC",
+      "projectPath": "C:\\Users\\16861\\source\\repos\\DGP.DecompilerMC\\DGP.DecompilerMC\\DGP.DecompilerMC.csproj",
+      "packagesPath": "C:\\Users\\16861\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\16861\\source\\repos\\DGP.DecompilerMC\\DGP.DecompilerMC\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\16861\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "FluentWPF": {
+            "target": "Package",
+            "version": "[0.8.0, )"
+          },
+          "LibZ.Tool": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "ModernWpfUI": {
+            "target": "Package",
+            "version": "[0.9.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "System.Collections": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "System.Runtime.WindowsRuntime": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "System.ValueTuple": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

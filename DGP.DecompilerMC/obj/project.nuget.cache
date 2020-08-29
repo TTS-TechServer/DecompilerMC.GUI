@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "z15ZHu/lZ3wY0YwB0wo6K7lcEETveLa8d8OddQcq+4Lu+U3YvAbvb/xULoOBP2FkiV3LNphV44Ef3USpJiriHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\16861\\source\\repos\\DGP.DecompilerMC\\DGP.DecompilerMC\\DGP.DecompilerMC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\16861\\.nuget\\packages\\fluentwpf\\0.8.0\\fluentwpf.0.8.0.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\libz.tool\\1.2.0\\libz.tool.1.2.0.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\modernwpfui\\0.9.1\\modernwpfui.0.9.1.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\system.runtime.windowsruntime\\4.7.0\\system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+    "C:\\Users\\16861\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
